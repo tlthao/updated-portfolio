@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tina Ly Portfolio</title>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <div class="navbar">
+      <!--Profile Picture-->
+      <div class="profile-pic">
+        <a href=""><img src="icon.jpg" id="image" alt="" /></a>
+      </div>
+      <!--Profile Name and Title-->
+      <div class="profile-name">
+        <h2>TINA LY</h2>
+        <h4>FRONT END WEB DEVELOPER</h4>
+      </div>
+      <!--Navigation Menu Options-->
+      <div class="menu">
+        <ul class="nav-options">
+          <li class="nav-list"><a href="#section1">ABOUT ME</a></li>
+          <li class="nav-list"><a href="#section2">SKILLS</a></li>
+          <li class="nav-list"><a href="#section3">PORTFOLIO</a></li>
+          <li class="nav-list"><a href="#section4">CONTACT ME</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="about-me" id="section1">
+        <br />
+        <br />
+        <h2>ABOUT ME</h2>
+        <h5>---</h5>
+        <h5 id="bio">Hello there! I'm Tina!</h5>
+        <h5>
+          I am a new front-end web developer that's passionate about creating and improving user interfaces to be intuitive, accessible and user friendly. Prior, I have worked in the financial technology industry for 5+ years as a tech specialist which helped me evolve to the career path I'm taking today. 
+        </h5>
+        <h5>I'm quietly confident, naturally curious, and perpetually working on improving my skills one design problem at a time. If I'm not coding, I'm watching anime/reading manga, trying new foods, hiking all over or taking care of my 3 cats! </h5>
+        <img src="my-cats.jpg" id="cats">
+      </div>
+      <div class="skills" id="section2">
+        <br />
+        <br />
+        <h2>SKILLS</h2>
+        <h5>---</h5>
+        <h5>
+          Below are some of the skills I have acquired up until now as well as through my new experience as a web developer:
+        </h5>
+        <ul class="skills-list">
+          <li>10+ Years of Customer Support</li>
+          <li>5+ Years of Technical Support</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>JQuery</li>
+          <li>Node JS</li>
+          <li>Express JS</li>
+          <li>MYSQL</li>
+          <li>MongoDB</li>
+          <li>React JS</li>
+        </ul>
+      </div>
+      <div class="portfolio" id="section3">
+        <br />
+        <br />
+        <h2>PORTFOLIO</h2>
+        <h5>---</h5>
+        <h5>
+          Below are some of my completed projects that have been deployed! To view all other work, please visit my Github <a href="https://github.com/tlthao" id="github">here</a>!
+        </h5>
+        <br />
+        <br />
+            <div class="flex-container">
+                <div class="project"><a href="https://tlthao.github.io/password-generator-week3/" class="project">PASSWORD GENERATOR</a></div>
+                <div class="project" ><a href="https://tlthao.github.io/code-quiz-week4/" class="project">CODE QUIZ GAME</a></div>
+                <div class="project"><a href="https://tlthao.github.io/workday-scheduler/" class="project">WORK DAY SCHEDULER</a></div>
+                <div class="project"><a href="https://tlthao.github.io/weather-dashboard/" class="project">WEATHER API</a></div>
+                <div class="project"><a href="https://imoranmo.github.io/What-are-we-having/" class="project">RECIPE GENERATOR</a></div>
+                <div class="project"><a href="https://sheltered-garden-76553.herokuapp.com/" class="project">MUSIC WEBSITE</a></div>
+                <div class="project">OTHER PROJECT</div>
+                <div class="project">OTHER PROJECT</div>
+                <div class="project">OTHER PROJECT</div>
+            </div>
+        </div>
+      <div class="contact-me" id="section4">
+        <br />
+        <br />
+        <h2>CONTACT ME</h2>
+        <h5>---</h5>
+        <h5>
+          If you would like more information, please visit the links below or send me a message! I look forward to hearing from you!
+        </h5>
+        <a href="Resume.pdf" download="resume">
+          <img src="resume.png" alt="Resume" width="50" height="50" id="resume" title="Resume">
+          <a href="https://www.linkedin.com/in/tina-ly-3b29a613a/">
+            <img src="linkedin.png" alt="LinkedIn" width="50" height="50" id="linkedin" title="LinkedIn">
+          </a>
+        </a>
+        <br />
+        <br />
+        <br />
+        
+        <form id="contact" action="mailto:t.tinaly@gmail.com" method="post">
+          <div class="row">
+            <div class="col-md-6 column">
+              <fieldset>
+                <input
+                  name="name"
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                  required=""
+                />
+              </fieldset>
+            </div>
+            <div class="col-md-6 column">
+              <fieldset>
+                <input
+                  name="email"
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  required=""
+                />
+              </fieldset>
+            </div>
+            <div class="col-md-12 column">
+              <fieldset>
+                <input
+                  name="subject"
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Subject"
+                  required=""
+                />
+              </fieldset>
+            </div>
+            <div class="col-md-12 column">
+              <fieldset>
+                <textarea
+                  name="message"
+                  rows="6"
+                  class="form-control"
+                  id="message"
+                  placeholder="Please leave me a message!"
+                  required=""
+                >
+                </textarea>
+              </fieldset>
+            </div>
+            <div class="col-md-12 column">
+              <fieldset>
+                <button type="submit" id="form-submit" class="button">
+                  SEND
+                </button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

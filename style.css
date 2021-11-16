@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(252, 217, 246);
+    padding-left: 5%;
+    font-family: 'Source Code Pro', monospace;
+}
+.navbar {
+    margin: -49px 1% 1% 1%;
+    background-color: rgb(194, 152, 233);
+    position: fixed;
+    border-radius: 10px;;
+    height: 100vh;
+    width: 18%;
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+#image {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+h3 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 96, 207);
+}
+h4 {
+    text-align: center;
+    margin-bottom: 20%;
+}
+h5 {
+    text-align: center;
+}
+span {
+    text-align: center;
+}
+ul {
+    
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+.nav-list {
+    background-color: rgb(91, 236, 255);
+    list-style-type: none;
+    margin-bottom: 10%;
+    border-color: rgb(113, 225, 245);
+    border-style: solid;
+    padding: 5%; 
+}
+.nav-list:hover {
+    background-color: rgb(233, 253, 163);
+    border-color: rgb(233, 253, 163);
+}
+.content {
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+.about-me, .skills, .portfolio, .contact-me {
+    margin-top: 5%;
+    height: 100vh;
+}
+#message{
+    width:100%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flex-container > div {
+    margin: 15px;
+    background-color: #fcc9e5;
+    border-radius: 5px;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+.project:hover{
+    background-color: rgb(161, 103, 255);
+    color: white;
+}
+#github {
+    text-decoration: underline;
+    color: blue;
+}
+.skills-list {
+     columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+    margin-left: 15%;
+}
+#cats{
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 55%;
+    border-style: solid;
+    border-color: rgb(255, 253, 105);
+    border-radius: 5px;
+}
+#bio {
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(24, 22, 17)
+}
+#resume {
+    margin-left: 43%;
+    margin-right: 2%;
+}
